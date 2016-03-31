@@ -46,11 +46,7 @@
 			
 			
 			
-			$table_html .= "<td>
-			
-								<a href='edit.php?edit=".$id."' >edit</a>  
-								
-							</td>";
+			$table_html .= "<td><a href='edit.php?edit=".$id."' >edit</a></td>";
 			
 			
 			
