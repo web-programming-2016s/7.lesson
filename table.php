@@ -28,6 +28,7 @@
 			$table_html .= "<th>Recipient</th>";
 			$table_html .= "<th>Message</th>";
 			$table_html .= "<th>Created</th>";
+			$table_html .= "<th>Edit</th>";
 		$table_html .= "</tr>";
 	
 	// GET RESULT 
@@ -41,10 +42,27 @@
 			$table_html .= "<td>".$recipient."</td>";
 			$table_html .= "<td>".$message."</td>";
 			$table_html .= "<td>".$created."</td>";
+			
+			
+			
+			
+			$table_html .= "<td>
+			
+								<a href='edit.php?edit=".$id."' >edit</a>  
+								
+							</td>";
+			
+			
+			
+			
 		$table_html .= "</tr>"; //end row
 
 	}
 	$table_html .= "</table>";
+	
+	
+	
+	
 	echo $table_html;
 	
 	
